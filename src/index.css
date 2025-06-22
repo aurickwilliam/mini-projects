@@ -8,6 +8,18 @@ body{
   box-sizing: border-box;
 }
 
+/* In your global CSS (e.g., index.css or app.css) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+
 @theme {
   --color-charcoal: #333333;
   --color-grey: #DADADA;
@@ -22,5 +34,11 @@ body{
 @layer components{
   .margin {
     @apply mx-5 sm:mx-15 md:mx-30 lg:mx-40 xl:mx-50 2xl:mx-70
+  }
+}
+
+@layer base {
+  button{
+    @apply bg-charcoal text-center text-white rounded-lg cursor-pointer
   }
 }

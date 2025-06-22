@@ -33,7 +33,6 @@ export default function NumberGuessing() {
     }
 
     if (parseInt(guess) === number) {
-      setHint("AYOOOO");
       setHaveGuessed(true);
       setNoGuess(prev => prev + 1);
     }
@@ -80,7 +79,7 @@ export default function NumberGuessing() {
             onChange={(e) => setGuess(e.target.value)}
             className="w-full h-10 p-2 text-center text-charcoal font-outfit border-2 border-charcoal rounded-lg"/>
 
-          <button type="submit" className="w-full bg-charcoal text-white font-outfit p-2 mt-3 rounded-lg cursor-pointer transition ease-in-out hover:bg-gray-600 active:scale-95">
+          <button type="submit" className="w-fullfont-outfit p-2 mt-3 transition ease-in-out hover:bg-gray-600 active:scale-95">
             Enter
           </button>
         </form>

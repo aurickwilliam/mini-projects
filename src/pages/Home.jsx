@@ -1,6 +1,8 @@
 import NavBar from "../components/NavBar"
 import ProjectCard from "../components/ProjectCard"
 import counterCover from "../assets/cover-img/counter-cover.png"
+import numberGuessingCover from "../assets/cover-img/number-guessing-cover.png"
+import randomNumberCover from "../assets/cover-img/random-number-cover.png"
 
 export default function Home() {
 
@@ -15,7 +17,13 @@ export default function Home() {
       title: "Number-Guessing Game",
       description: "Simple game where the user need to guess the number from 1 - 100",
       destination: "/number-guessing",
-      coverImg: counterCover,
+      coverImg: numberGuessingCover,
+    },
+    {
+      title: "Random-Number Generator",
+      description: "Simple number generator from X to X",
+      destination: "/random-number",
+      coverImg: randomNumberCover,
     }
   ]
 
@@ -35,7 +43,7 @@ export default function Home() {
 
         <div className="my-5 flex flex-col gap-5 md:grid grid-cols-2 xl:grid-cols-3">
           {
-            listProjects.map((project) => <ProjectCard project={project}/>)
+            listProjects.map((project, index) => <ProjectCard project={project} key={index}/>)
           }
         </div>
       </section>
