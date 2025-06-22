@@ -4,6 +4,7 @@ import counterCover from "../assets/cover-img/counter-cover.png"
 import numberGuessingCover from "../assets/cover-img/number-guessing-cover.png"
 import randomNumberCover from "../assets/cover-img/random-number-cover.png"
 import digitalClockCover from "../assets/cover-img/digital-clock-cover.png"
+import passwordGeneratorCover from "../assets/cover-img/password-generator-cover.png"
 
 export default function Home() {
 
@@ -36,7 +37,7 @@ export default function Home() {
       title: "Password Generator",
       description: "Generates a unique and strong password based on user preferences.",
       destination: "/password-generator",
-      coverImg: digitalClockCover,
+      coverImg: passwordGeneratorCover,
     }
   ]
 
