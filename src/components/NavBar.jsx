@@ -19,7 +19,7 @@ export default function NavBar() {
         <FontAwesomeIcon icon={faFireFlameSimple} className='text-2xl text-white'/>
         
         <h1 className='text-3xl text-white font-outfit font-medium'>
-          Lonian
+          lonian
         </h1>
       </div>
 

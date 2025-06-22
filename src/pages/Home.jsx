@@ -10,6 +10,12 @@ export default function Home() {
       description: "Simple counter that can add, delete, and reset",
       destination: "/counter-program",
       coverImg: counterCover,
+    },
+    {
+      title: "Number-Guessing Game",
+      description: "Simple game where the user need to guess the number from 1 - 100",
+      destination: "/number-guessing",
+      coverImg: counterCover,
     }
   ]
 
