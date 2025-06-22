@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@theme {
+  --color-charcoal: #333333;
+  --color-grey: #DADADA;
+  --color-matcha: #588157;
+  --color-light-matcha: #90a955;
+
+  --font-outfit: "Outfit", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+@layer components{
+  .margin {
+    @apply mx-10 sm:mx-20 md:mx-30 lg:mx-40 xl:mx-50 2xl:mx-70
+  }
+}
