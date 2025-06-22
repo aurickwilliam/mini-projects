@@ -1,6 +1,8 @@
-import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faRotateRight} from "@fortawesome/free-solid-svg-icons";
+import {faRotateRight, faFireFlameSimple} from "@fortawesome/free-solid-svg-icons";
+
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function NumberGuessing() {
   const [guess, setGuess] = useState("");
@@ -8,6 +10,8 @@ export default function NumberGuessing() {
   const [hint, setHint] = useState("");
   const [haveGuessed, setHaveGuessed] = useState(false);
   const [noGuess, setNoGuess] = useState(0);
+
+  const navigate = useNavigate();
 
   const generateRandomInteger = (min, max) => {
     min = Math.ceil(min);
@@ -106,6 +110,13 @@ export default function NumberGuessing() {
             </button>
           </div>
         }
+      </div>
+
+      <div onClick={() => navigate("/")} className='absolute right-0 bottom-0 bg-white-bg m-5 p-3 flex items-center justify-center gap-2 rounded-4xl shadow-sm cursor-pointer'>
+        <FontAwesomeIcon icon={faFireFlameSimple} className='text-xl text-charcoal'/>
+        <h1 className='text-xl text-charcoal font-outfit font-medium'>
+          lonian
+        </h1>
       </div>
     </section>
   )

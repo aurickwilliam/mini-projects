@@ -13,7 +13,7 @@ export default function NavBar() {
   }
 
   return (
-    <nav className='flex justify-between items-center bg-light-matcha px-10 py-2 sm:px-20 md:px-30 lg:px-40 xl:px-50 2xl:px-70'>
+    <nav className='flex justify-between items-center bg-light-matcha px-5 py-2 sm:px-15 md:px-30 lg:px-40 xl:px-50 2xl:px-70'>
       {/* Logo */}
       <div onClick={handleLogoClick} className='flex justify-center items-center gap-2 cursor-pointer'>
         <FontAwesomeIcon icon={faFireFlameSimple} className='text-2xl text-white'/>

@@ -21,6 +21,6 @@ body{
 
 @layer components{
   .margin {
-    @apply mx-10 sm:mx-20 md:mx-30 lg:mx-40 xl:mx-50 2xl:mx-70
+    @apply mx-5 sm:mx-15 md:mx-30 lg:mx-40 xl:mx-50 2xl:mx-70
   }
 }
