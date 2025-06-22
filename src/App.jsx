@@ -3,6 +3,8 @@ import Home from './pages/Home'
 import CounterProgram from './pages/CounterProgram'
 import NumberGuessing from './pages/NumberGuessing'
 import RandomNumber from './pages/RandomNumber'
+import DigitalClock from './pages/DigitalClock'
+import PasswordGenerator from './pages/PasswordGenerator'
 
 export default function App() {
   return (
@@ -12,6 +14,8 @@ export default function App() {
         <Route path="/counter-program" element={<CounterProgram />} />
         <Route path="/number-guessing" element={<NumberGuessing />} />
         <Route path="/random-number" element={<RandomNumber />} />
+        <Route path="/digital-clock" element={<DigitalClock />} />
+        <Route path="/password-generator" element={<PasswordGenerator />} />
       </Routes>
     </main>
   )

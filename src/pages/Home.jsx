@@ -3,6 +3,7 @@ import ProjectCard from "../components/ProjectCard"
 import counterCover from "../assets/cover-img/counter-cover.png"
 import numberGuessingCover from "../assets/cover-img/number-guessing-cover.png"
 import randomNumberCover from "../assets/cover-img/random-number-cover.png"
+import digitalClockCover from "../assets/cover-img/digital-clock-cover.png"
 
 export default function Home() {
 
@@ -24,6 +25,18 @@ export default function Home() {
       description: "Simple number generator from X to X",
       destination: "/random-number",
       coverImg: randomNumberCover,
+    },
+    {
+      title: "Digital Clock",
+      description: "Digital Clock that displays the current time",
+      destination: "/digital-clock",
+      coverImg: digitalClockCover,
+    },
+    {
+      title: "Password Generator",
+      description: "Generates a unique and strong password based on user preferences.",
+      destination: "/password-generator",
+      coverImg: digitalClockCover,
     }
   ]
 
