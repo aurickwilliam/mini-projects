@@ -5,6 +5,7 @@ import numberGuessingCover from "../assets/cover-img/number-guessing-cover.png"
 import randomNumberCover from "../assets/cover-img/random-number-cover.png"
 import digitalClockCover from "../assets/cover-img/digital-clock-cover.png"
 import passwordGeneratorCover from "../assets/cover-img/password-generator-cover.png"
+import temperatureConversionCover from "../assets/cover-img/temperature-conversion-cover.png"
 
 export default function Home() {
 
@@ -38,6 +39,12 @@ export default function Home() {
       description: "Generates a unique and strong password based on user preferences.",
       destination: "/password-generator",
       coverImg: passwordGeneratorCover,
+    },
+    {
+      title: "Temperature Conversion",
+      description: "Simply converts the temperature to any measurement.",
+      destination: "/temperature-conversion",
+      coverImg: temperatureConversionCover,
     }
   ]
 
