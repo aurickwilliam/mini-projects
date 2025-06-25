@@ -6,6 +6,7 @@ import RandomNumber from './pages/RandomNumber'
 import DigitalClock from './pages/DigitalClock'
 import PasswordGenerator from './pages/PasswordGenerator'
 import TemperatureConversion from './pages/TemperatureConversion'
+import Stopwatch from './pages/Stopwatch'
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/digital-clock" element={<DigitalClock />} />
         <Route path="/password-generator" element={<PasswordGenerator />} />
         <Route path="/temperature-conversion" element={<TemperatureConversion />} />
+        <Route path="/stopwatch" element={<Stopwatch />} />
       </Routes>
     </main>
   )

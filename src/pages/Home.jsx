@@ -45,6 +45,12 @@ export default function Home() {
       description: "Simply converts the temperature to any measurement.",
       destination: "/temperature-conversion",
       coverImg: temperatureConversionCover,
+    },
+    {
+      title: "Stopwatch",
+      description: "Start and Stop timer.",
+      destination: "/stopwatch",
+      coverImg: temperatureConversionCover,
     }
   ]
 
