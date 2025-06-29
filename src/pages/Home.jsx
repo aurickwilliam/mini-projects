@@ -6,6 +6,7 @@ import randomNumberCover from "../assets/cover-img/random-number-cover.png"
 import digitalClockCover from "../assets/cover-img/digital-clock-cover.png"
 import passwordGeneratorCover from "../assets/cover-img/password-generator-cover.png"
 import temperatureConversionCover from "../assets/cover-img/temperature-conversion-cover.png"
+import photocardCover from "../assets/cover-img/photocard-cover.png";
 
 export default function Home() {
 
@@ -51,6 +52,12 @@ export default function Home() {
       description: "Start and Stop timer.",
       destination: "/stopwatch",
       coverImg: temperatureConversionCover,
+    },
+    {
+      title: "Photocard Slider",
+      description: "Photocard image slider of all members of NewJeans.",
+      destination: "/image-slider",
+      coverImg: photocardCover,
     }
   ]
 
