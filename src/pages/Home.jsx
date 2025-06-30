@@ -6,7 +6,9 @@ import randomNumberCover from "../assets/cover-img/random-number-cover.png"
 import digitalClockCover from "../assets/cover-img/digital-clock-cover.png"
 import passwordGeneratorCover from "../assets/cover-img/password-generator-cover.png"
 import temperatureConversionCover from "../assets/cover-img/temperature-conversion-cover.png"
+import stopwatchCover from "../assets/cover-img/stopwatch-cover.png";
 import photocardCover from "../assets/cover-img/photocard-cover.png";
+import calculatorCover from "../assets/cover-img/calculator-cover.png";
 
 export default function Home() {
 
@@ -51,13 +53,19 @@ export default function Home() {
       title: "Stopwatch",
       description: "Start and Stop timer.",
       destination: "/stopwatch",
-      coverImg: temperatureConversionCover,
+      coverImg: stopwatchCover,
     },
     {
       title: "Photocard Slider",
       description: "Photocard image slider of all members of NewJeans.",
       destination: "/image-slider",
       coverImg: photocardCover,
+    },
+    {
+      title: "iOS Calculator",
+      description: "Simple replica calculator of iOS version.",
+      destination: "/calculator",
+      coverImg: calculatorCover,
     }
   ]
 
